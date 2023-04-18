@@ -6,14 +6,12 @@ channels:
   - defaults
 dependencies:
   {% if cookiecutter.project_packages == "All" -%}
-  - janitor
   - matplotlib
   - missingno
   - numpy
   - pandas
   - pyreadr
   - seaborn
-  - session_info
   - upsetplot
   {% endif -%}
   - pip
