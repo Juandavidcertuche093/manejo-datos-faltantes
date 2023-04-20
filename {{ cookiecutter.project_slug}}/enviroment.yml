@@ -13,6 +13,8 @@ dependencies:
   - pyreadr
   - seaborn
   - upsetplot
+  - pyjanitor
+  - session_info
   {% endif -%}
   - pip
   {% if cookiecutter.project_packages == "All" -%}
